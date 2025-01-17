@@ -1,0 +1,179 @@
+  // //Menu Items
+  // //Menu 1
+  // const menu1Img = makeElement("img", [
+  //   {
+  //     class: "menuImg",
+  //     src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/00ae34b9-dbf6-4788-bb79-b42513d5b474_volcanoHomePeppyPaneer.jpg?ver=V0.0.1",
+  //   },
+  // ]);
+  // const menu1title = makeElement(
+  //   "h4",
+  //   [{ class: "menuTitle" }],
+  //   ["Cheese Volcano Peppy Paneer"]
+  // );
+  // const menu1Description = makeElement(
+  //   "p",
+  //   [{ class: "menuDescription" }],
+  //   [
+  //     "Centre loaded with molten Cheese & topped with peppy Paneer, Capsicum & Red Paprika *Contains non-edible container under the Pizza.",
+  //   ]
+  // );
+  // const menu1BuyButton = makeElement(
+  //   "button",
+  //   [{ class: "BuyButton" }],
+  //   ["Add to Cart"]
+  // );
+  // const menu1 = makeElement(
+  //   "div",
+  //   [{ class: "menu" }],
+  //   [menu1Img, menu1title, menu1Description, menu1BuyButton]
+  // );
+
+  // //Menu 2
+  // const menu2Img = makeElement("img", [
+  //   {
+  //     class: "menuImg",
+  //     src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/91d8018d-f353-4358-9226-a31f55d5b8b2_FullSizeFarmhouse.jpg?ver=V0.0.1",
+  //   },
+  // ]);
+  // const menu2title = makeElement(
+  //   "h4",
+  //   [{ class: "menuTitle" }],
+  //   ["Cheese Volcano Farmhouse"]
+  // );
+  // const menu2Description = makeElement(
+  //   "p",
+  //   [{ class: "menuDescription" }],
+  //   [
+  //     "Centre loaded with molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom. *Contains non-edible container under the Pizza.",
+  //   ]
+  // );
+  // const menu2BuyButton = makeElement(
+  //   "button",
+  //   [{ class: "BuyButton" }],
+  //   ["Add to Cart"]
+  // );
+  // const menu2 = makeElement(
+  //   "div",
+  //   [{ class: "menu" }],
+  //   [menu2Img, menu2title, menu2Description, menu2BuyButton]
+  // );
+
+  // //Menu 3
+  // const menu3Img = makeElement("img", [
+  //   {
+  //     class: "menuImg",
+  //     src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/08ec2d51-9032-4030-a7a1-e1c9d67ae19b_FullsizeFarmhouseCB.jpg?ver=V0.0.1",
+  //   },
+  // ]);
+  // const menu3title = makeElement("h4", [{ class: "menuTitle" }], ["Farmhouse"]);
+  // const menu3Description = makeElement(
+  //   "p",
+  //   [{ class: "menuDescription" }],
+  //   ["Delightful combination of onion, capsicum, tomato & grilled mushrooms"]
+  // );
+  // const menu3BuyButton = makeElement(
+  //   "button",
+  //   [{ class: "BuyButton" }],
+  //   ["Add to Cart"]
+  // );
+  // const menu3 = makeElement(
+  //   "div",
+  //   [{ class: "menu" }],
+  //   [menu3Img, menu3title, menu3Description, menu3BuyButton]
+  // );
+
+  // //Menu 4
+  // const menu4Img = makeElement("img", [
+  //   {
+  //     class: "menuImg",
+  //     src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/beec8145-bdd9-46f5-ba99-945d81b3488a_FullsizeDoubleSpiceChickenCB.jpg?ver=V0.0.1",
+  //   },
+  // ]);
+  // const menu4title = makeElement(
+  //   "h4",
+  //   [{ class: "menuTitle" }],
+  //   ["Spiced Double Chicken Pizza"]
+  // );
+  // const menu4Description = makeElement(
+  //   "p",
+  //   [{ class: "menuDescription" }],
+  //   [
+  //     "Molten Cheese indulgence with combination of Pepper Barbecue Chicken & Peri Peri Chicken for Chicken lovers.",
+  //   ]
+  // );
+  // const menu4BuyButton = makeElement(
+  //   "button",
+  //   [{ class: "BuyButton" }],
+  //   ["Add to Cart"]
+  // );
+  // const menu4 = makeElement(
+  //   "div",
+  //   [{ class: "menu" }],
+  //   [menu4Img, menu4title, menu4Description, menu4BuyButton]
+  // );
+
+  // //Menu 5
+  // const menu5Img = makeElement("img", [
+  //   {
+  //     class: "menuImg",
+  //     src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/d5b5a2d5-55ad-4414-9c6b-5f736b399075_FullsizeChickenFiestaCB.jpg?ver=V0.0.1",
+  //   },
+  // ]);
+  // const menu5title = makeElement(
+  //   "h4",
+  //   [{ class: "menuTitle" }],
+  //   ["Chicken Fiesta"]
+  // );
+  // const menu5Description = makeElement(
+  //   "p",
+  //   [{ class: "menuDescription" }],
+  //   [
+  //     "Molten Cheese indulgence with grilled chicken rashers, peri-peri chicken, onion and capsicum",
+  //   ]
+  // );
+  // const menu5BuyButton = makeElement(
+  //   "button",
+  //   [{ class: "BuyButton" }],
+  //   ["Add to Cart"]
+  // );
+  // const menu5 = makeElement(
+  //   "div",
+  //   [{ class: "menu" }],
+  //   [menu5Img, menu5title, menu5Description, menu5BuyButton]
+  // );
+
+  // // Menu 6
+  // const menu6Img = makeElement("img", [
+  //   {
+  //     class: "menuImg",
+  //     src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/d1a33287-fa34-4506-af76-4fc1e22b841c_FullsizeFreshveggieCB.jpg?ver=V0.0.1",
+  //   },
+  // ]);
+  // const menu6title = makeElement(
+  //   "h4",
+  //   [{ class: "menuTitle" }],
+  //   ["Fresh Veggie"]
+  // );
+  // const menu6Description = makeElement(
+  //   "p",
+  //   [{ class: "menuDescription" }],
+  //   ["Molten Cheese indulgence with combination of onion & capsicum"]
+  // );
+  // const menu6BuyButton = makeElement(
+  //   "button",
+  //   [{ class: "BuyButton" }],
+  //   ["Add to Cart"]
+  // );
+  // const menu6 = makeElement(
+  //   "div",
+  //   [{ class: "menu" }],
+  //   [menu6Img, menu6title, menu6Description, menu6BuyButton]
+  // );
+
+
+  // const menuContainer = makeElement(
+  //   "div",
+  //   [{ id: "menuContainer" }],
+  //   [menu1, menu2, menu3, menu4, menu5, menu6]
+  // );

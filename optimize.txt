@@ -1,0 +1,240 @@
+  const menus = [
+    //Menu1
+    {
+      menuImg: {
+        attribute: [
+          {
+            tag: "img",
+            class: "menuImg",
+            src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/00ae34b9-dbf6-4788-bb79-b42513d5b474_volcanoHomePeppyPaneer.jpg?ver=V0.0.1",
+          },
+        ],
+        children: [],
+      },
+      menuTitle: {
+        tag: "h4",
+        attribute: [
+          {
+            class: "menuTitle",
+          },
+        ],
+        children: ["Cheese Volcano Peppy Paneer"],
+      },
+      menu1Description: {
+        tag: "p",
+        attribute: [
+          {
+            class: "menuDescription",
+          },
+        ],
+        children: [
+          "Centre loaded with molten Cheese & topped with peppy Paneer, Capsicum & Red Paprika *Contains non-edible container under the Pizza.",
+        ],
+      },
+      menu1BuyButton: {
+        tag: 'button',
+        attribute: [{ class: "BuyButton" }],
+        children: ["Add to Cart"],
+      },
+    },
+    //Menu2
+    {
+      menuImg: {
+        tag: "img",
+        attribute: [
+          {
+            class: "menuImg",
+            src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/91d8018d-f353-4358-9226-a31f55d5b8b2_FullSizeFarmhouse.jpg?ver=V0.0.1",
+          },
+        ],
+        children: [],
+      },
+      menuTitle: {
+        tag: "h4",
+        attribute: [
+          {
+            class: "menuTitle",
+          },
+        ],
+        children: ["Cheese Volcano Farmhouse"],
+      },
+      menu1Description: {
+        tag: "p",
+        attribute: [
+          {
+            class: "menuDescription",
+          },
+        ],
+        children: [
+          "Centre loaded with molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom. *Contains non-edible container under the Pizza.",
+        ],
+      },
+      menu1BuyButton: {
+        tag: 'button',
+        attribute: [{ class: "BuyButton" }],
+        children: ["Add to Cart"],
+      },
+    },
+    //Menu3
+    {
+      menuImg: {
+        tag: "img",
+        attribute: [
+          {
+            class: "menuImg",
+            src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/08ec2d51-9032-4030-a7a1-e1c9d67ae19b_FullsizeFarmhouseCB.jpg?ver=V0.0.1",
+          },
+        ],
+        children: [],
+      },
+      menuTitle: {
+        tag: "h4",
+        attribute: [
+          {
+            class: "menuTitle",
+          },
+        ],
+        children: ["Farmhouse"],
+      },
+      menu1Description: {
+        tag: "p",
+        attribute: [
+          {
+            class: "menuDescription",
+          },
+        ],
+        children: [
+          "Delightful combination of onion, capsicum, tomato & grilled mushrooms",
+        ],
+      },
+      menu1BuyButton: {
+        tag: 'button',
+        attribute: [{ class: "BuyButton" }],
+        children: ["Add to Cart"],
+      },
+    },
+    //Menu4
+    {
+      menuImg: {
+        tag: "img",
+        attribute: [
+          {
+            class: "menuImg",
+            src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/beec8145-bdd9-46f5-ba99-945d81b3488a_FullsizeDoubleSpiceChickenCB.jpg?ver=V0.0.1",
+          },
+        ],
+        children: [],
+      },
+      menuTitle: {
+        tag: "h4",
+        attribute: [
+          {
+            class: "menuTitle",
+          },
+        ],
+        children: ["Spiced Double Chicken Pizza"],
+      },
+      menu1Description: {
+        tag: "p",
+        attribute: [
+          {
+            class: "menuDescription",
+          },
+        ],
+        children: [
+          "Molten Cheese indulgence with combination of Pepper Barbecue Chicken & Peri Peri Chicken for Chicken lovers.",
+        ],
+      },
+      menu1BuyButton: {
+        tag: 'button',
+        attribute: [{ class: "BuyButton" }],
+        children: ["Add to Cart"],
+      },
+    },
+    //Menu5
+    {
+      menuImg: {
+        tag: "img",
+        attribute: [
+          {
+            class: "menuImg",
+            src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/d5b5a2d5-55ad-4414-9c6b-5f736b399075_FullsizeChickenFiestaCB.jpg?ver=V0.0.1",
+          },
+        ],
+        children: [],
+      },
+      menuTitle: {
+        tag: "h4",
+        attribute: [
+          {
+            class: "menuTitle",
+          },
+        ],
+        children: ["Chicken Fiesta"],
+      },
+      menu1Description: {
+        tag: "p",
+        attribute: [
+          {
+            class: "menuDescription",
+          },
+        ],
+        children: [
+          "Molten Cheese indulgence with grilled chicken rashers, peri-peri chicken, onion and capsicum",
+        ],
+      },
+      menu1BuyButton: {
+        tag: 'button',
+        attribute: [{ class: "BuyButton" }],
+        children: ["Add to Cart"],
+      },
+    },
+    //Menu6
+    {
+      menuImg: {
+        tag: "img",
+        attribute: [
+          {
+            class: "menuImg",
+            src: "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/WebHomeProductV1/d1a33287-fa34-4506-af76-4fc1e22b841c_FullsizeFreshveggieCB.jpg?ver=V0.0.1",
+          },
+        ],
+        children: [],
+      },
+      menuTitle: {
+        tag: "h4",
+        attribute: [
+          {
+            class: "menuTitle",
+          },
+        ],
+        children: ["Fresh Veggie"],
+      },
+      menu1Description: {
+        tag: "p",
+        attribute: [
+          {
+            class: "menuDescription",
+          },
+        ],
+        children: [
+          "Molten Cheese indulgence with combination of onion & capsicum",
+        ],
+      },
+      menu1BuyButton: {
+        tag: 'button',
+        attribute: [{ class: "BuyButton" }],
+        children: ["Add to Cart"],
+      },
+    },
+  ];
+  const menuItems = [];
+  
+  menus.forEach((menu)=>{
+    let menuImg = makeElement(menu.menuImg.tag, menu.menuImg.attribute, menu.menuImg.children);
+    let menuTitle = makeElement(menu.menuTitle.tag, menu.menuTitle.attribute, menu.menuTitle.children);
+    let menu1Description = makeElement(menu.menu1Description.tag, menu.menu1Description.attribute, menu.menu1Description.children);
+    let menu1BuyButton = makeElement(menu.menu1BuyButton.tag, menu.menu1BuyButton.attribute, menu.menu1BuyButton.children);
+    menuItems.push(makeElement("div", [{class:"menu"}], [menuImg, menuTitle, menu1Description, menu1BuyButton]))
+  })
+  

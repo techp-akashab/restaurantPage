@@ -1,0 +1,32 @@
+#content{
+    display: flex;
+    align-items: center;
+}
+#pizzaImg{
+    width: 40vw;
+    background-image: url('../../../assets/resource/bg.svg');
+}
+#heading-first{
+    font-weight: normal;
+    font-size: 3rem;
+}
+#left{
+    /* padding: 6vw; */
+    padding: 8vw 6vw 3vw 5vw;
+    /* border: 1px solid black; */
+}
+#home-page-content{
+    font-size: 1.3rem;
+    margin-top: 3vh;
+}
+.viewbtn{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-top: 7vh;
+    border: none;
+}
+.viewbtn:hover{
+    cursor: pointer;
+}
